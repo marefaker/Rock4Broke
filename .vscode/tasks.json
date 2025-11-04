@@ -10,7 +10,7 @@
                 "-g",
                 "*.cpp",
                 "-o",
-                "${fileDirname}\\project.exe",
+                "${fileDirname}\\ffr.exe",
                 "-static",
                 "-static-libgcc",
                 "-static-libstdc++",
