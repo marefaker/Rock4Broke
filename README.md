@@ -17,7 +17,7 @@
 ## 编译与运行（Windows 推荐）
 - 依赖：支持 C++11 的编译器，Windows API（源码使用了 Windows.h、system("cls") 等），建议在 Windows 环境下使用 MinGW 或 Visual Studio。
 - 示例（使用 g++ / MinGW）:
-    - g++ -std=c++11 -O2 -o ffr.exe fast_fret_reference.cpp
+    - g++ -std=c++11 -O2 -o ffr.exe *.cpp
     - ./ffr.exe
 - 交互说明：
     - 启动后按 T 显示教程、C 进入计算、Q 或回车退出。
