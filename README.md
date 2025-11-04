@@ -204,6 +204,10 @@ y(x, t) = ∑{n=1→∞} sin(nπx/L) [ A_n cos(nπct/L) + B_n sin(nπct/L) ]
 
 答：那些设备又贵又占地方，业余玩家的天花板就在 JAM BUDDY II 一者。如果有朝一日你的技术与财力能够驾驭专业方案，那再好不过了。
 
+### 问：怎么调节琴桥琴颈？怎么换弦？
+
+答：这种东西纯靠文字描述不好使，教程上 B 站一搜就有。
+
 ---
 
 ## 🌐 网络资源
@@ -221,6 +225,7 @@ y(x, t) = ∑{n=1→∞} sin(nπx/L) [ A_n cos(nπct/L) + B_n sin(nπct/L) ]
 想找谱子但国内找不到时可以试试这个：
 
 *   [https://www.songsterr.com](https://www.songsterr.com)
+
 
 
 
