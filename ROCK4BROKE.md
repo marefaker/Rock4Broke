@@ -2,7 +2,7 @@
 
 一份为预算有限的电吉他新手准备的入门指南
 
-吉他与音箱两个大宗设备以入门期性价比极高的 **Epiphone** 和 **Joyo** 为例进行介绍
+吉他与音箱两个大宗设备以入门期性价比极高的 **Epiphone** 和 **JOYO** 为例进行介绍
 
 ---
 
@@ -38,11 +38,11 @@
     [Epiphone Les Paul Tribute](https://item.jd.com/100143491138.html)
 
 *   **综合效果器音箱**
-    `推荐 Joyo JAM BUDDY 和 JAM BUDDY II。一代傻瓜式操作无脑买，二代功能多`
+    `推荐 JOYO JAM BUDDY 和 JAM BUDDY II。一代傻瓜式操作无脑买，二代功能多`
 
-    [JAM BUDDY](https://item.jd.com/10029369162535.html)
-    
-    [JAM BUDDY II](https://item.jd.com/10174949443805.html)
+    [JOYO JAM BUDDY](https://item.jd.com/10029369162535.html)
+
+    [JOYO JAM BUDDY II](https://item.jd.com/10174949443805.html)
 
 *   **3.5mm监听耳机**
     `静音练习用，支持麦克风的通话耳机所使用的四芯接头与监听耳机插孔不兼容。6.35mm监听耳机泛用性太差，强烈反对选购`
