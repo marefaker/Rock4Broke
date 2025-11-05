@@ -50,7 +50,7 @@
 - 简洁快速参考：每根弦显示最合适的品位区间（例如 “弦枕 - 第2品”）。
 
 ## 相关文档
-- 本项目附带针对预算有限的电吉他新手的入门指南,详情可移步 ROCK4BROKE.md
+- 本项目附带针对预算有限的电吉他新手的入门指南,详情可移步 ROCK4BROKE.md (https://github.com/marefaker/Rock4Broke/blob/main/ROCK4BROKE.md)
 
 ## 许可证与贡献
 
