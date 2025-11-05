@@ -6,6 +6,14 @@
 
 ---
 
+## 📢 声明
+
+本指南涉及并推荐的实际存在的产品及其生产方、销售方与本人无利益相关，纯个人推荐
+
+购买链接与价格仅供参考，请以实际搜索为准
+
+---
+
 ## 📇 目录
 
 设备清单中涉及的具体音箱型号将在[🔊 音箱选购建议](#-音箱选购建议)部分进行介绍
@@ -24,9 +32,13 @@
 
 *   **吉他** 
     `推荐从 Epiphone Les Paul Special-II 或 Tribute 入门，干摇滚就得是 LP 口牙`
+    [Epiphone Les Paul Special-II](https://item.jd.com/100143491134.html)
+    [Epiphone Les Paul Tribute](https://item.jd.com/100143491138.html)
 
 *   **综合效果器音箱**
     `推荐 Joyo JAM BUDDY 和 JAM BUDDY II。一代傻瓜式操作无脑买，二代功能多`
+    [JAM BUDDY](https://item.jd.com/10029369162535.html)
+    [JAM BUDDY II](https://item.jd.com/10174949443805.html)
 
 *   **3.5mm监听耳机**
     `静音练习用，支持麦克风的通话耳机所使用的四芯接头与监听耳机插孔不兼容。6.35mm监听耳机泛用性太差，强烈反对选购`
@@ -252,3 +264,4 @@
 *   [卓乐 JOYO 乐器旗舰店](https://mall.jd.com/index-10703887.html)
 *   [艺钛客乐器专营店](https://mall.jd.com/index-633987.html)
 *   [莫森京东自营旗舰店](https://mall.jd.com/index-1000085021.html)
+*   [爱丽丝（Alice）官方旗舰店](https://mall.jd.com/index-18910428.html)
