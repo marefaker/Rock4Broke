@@ -75,7 +75,7 @@ void calculate() {
     system("cls"); // 清屏
 
     // 默认参数
-    double defaultScaleLength = 628.65; // 默认弦长628.65mm
+    double defaultScaleLength = 648; // 默认弦长648mm
     double defaultTuningPostDiameter = 4.5; // 默认弦钮直径4.5mm
     string defaultStringGauge = "010E"; // 默认琴弦规格
 
