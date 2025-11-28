@@ -95,7 +95,7 @@ void calculate() {
     vector<double> recommendedTurns = { 5.0, 4.5, 4.0, 3.0, 2.5, 2.0 };
     vector<string> stringNames = { "1弦", "2弦", "3弦", "4弦", "5弦", "6弦" };
 
-    // 获取用户输入
+    // 获取用户输入 - 提升鲁棒性
     double scaleLength;
     double tuningPostDiameter;
     string stringGauge;
@@ -105,38 +105,110 @@ void calculate() {
     cout << "民谣吉他(A): 011A, 012A" << endl;
     cout << "请按提示输入您的吉他参数（直接回车使用默认值）:" << endl;
     cout << "----------------------------------------" << endl;
-    cout << "吉他弦长 (mm) [默认: " << defaultScaleLength << "（电吉他典型值），Les Paul 和 SG 则为 628.65 mm，民谣吉他多为 650 mm]: ";
-    string input;
-    getline(cin, input);
-    if (input.empty()) {
-        scaleLength = defaultScaleLength;
-    }
-    else {
-        scaleLength = stod(input);
+
+    // 获取弦长输入（带错误处理）
+    while (true) {
+        cout << "吉他弦长 (mm) [默认: " << defaultScaleLength << "（电吉他典型值），Les Paul 和 SG 则为 628.65 mm，民谣吉他多为 650 mm]: ";
+        string input;
+        getline(cin, input);
+        
+        if (input.empty()) {
+            scaleLength = defaultScaleLength;
+            break;
+        }
+        
+        try {
+            scaleLength = stod(input);
+            if (scaleLength <= 0) {
+                cout << "错误：弦长必须是正数，请重新输入。" << endl;
+                continue;
+            }
+            if (scaleLength > 1000 || scaleLength < 400) {
+                cout << "警告：弦长值 " << scaleLength << "mm 似乎过大或过小，请确认输入正确。" << endl;
+                cout << "典型弦长范围：电吉他 620-650mm，民谣吉他 640-660mm" << endl;
+                cout << "是否继续使用此值？(y/n): ";
+                string confirm;
+                getline(cin, confirm);
+                if (confirm == "y" || confirm == "Y" || confirm.empty()) {
+                    break;
+                } else {
+                    continue;
+                }
+            }
+            break;
+        } catch (const invalid_argument& e) {
+            cout << "错误：输入的不是有效数字，请重新输入。" << endl;
+        } catch (const out_of_range& e) {
+            cout << "错误：输入的数字超出范围，请重新输入。" << endl;
+        }
     }
 
-    cout << "弦钮直径 (mm) [默认: " << defaultTuningPostDiameter << "]: ";
-    getline(cin, input);
-    if (input.empty()) {
-        tuningPostDiameter = defaultTuningPostDiameter;
-    }
-    else {
-        tuningPostDiameter = stod(input);
+    // 获取弦钮直径输入（带错误处理）
+    while (true) {
+        cout << "弦钮直径 (mm) [默认: " << defaultTuningPostDiameter << "]: ";
+        string input;
+        getline(cin, input);
+        
+        if (input.empty()) {
+            tuningPostDiameter = defaultTuningPostDiameter;
+            break;
+        }
+        
+        try {
+            tuningPostDiameter = stod(input);
+            if (tuningPostDiameter <= 0) {
+                cout << "错误：弦钮直径必须是正数，请重新输入。" << endl;
+                continue;
+            }
+            if (tuningPostDiameter < 3 || tuningPostDiameter > 10) {
+                cout << "警告：弦钮直径 " << tuningPostDiameter << "mm 不在常见范围内(3-10mm)，请确认输入正确。" << endl;
+                cout << "是否继续使用此值？(y/n): ";
+                string confirm;
+                getline(cin, confirm);
+                if (confirm == "y" || confirm == "Y" || confirm.empty()) {
+                    break;
+                } else {
+                    continue;
+                }
+            }
+            break;
+        } catch (const invalid_argument& e) {
+            cout << "错误：输入的不是有效数字，请重新输入。" << endl;
+        } catch (const out_of_range& e) {
+            cout << "错误：输入的数字超出范围，请重新输入。" << endl;
+        }
     }
 
-    cout << "琴弦规格 [默认: " << defaultStringGauge << "]: ";
-    getline(cin, input);
-    if (input.empty()) {
-        stringGauge = defaultStringGauge;
-    }
-    else {
-        stringGauge = input;
-    }
-
-    // 检查琴弦规格是否有效
-    if (stringGauges.find(stringGauge) == stringGauges.end()) {
-        cout << "无效的琴弦规格，使用默认值 010E" << endl;
-        stringGauge = "010E";
+    // 获取琴弦规格输入（带错误处理）
+    while (true) {
+        cout << "琴弦规格 [默认: " << defaultStringGauge << "]: ";
+        string input;
+        getline(cin, input);
+        
+        if (input.empty()) {
+            stringGauge = defaultStringGauge;
+            break;
+        }
+        
+        // 转换为大写以便比较
+        string upperInput = input;
+        transform(upperInput.begin(), upperInput.end(), upperInput.begin(), ::toupper);
+        
+        if (stringGauges.find(upperInput) != stringGauges.end()) {
+            stringGauge = upperInput;
+            break;
+        } else {
+            cout << "错误：不支持的琴弦规格 '" << input << "'。" << endl;
+            cout << "支持的规格有: ";
+            bool first = true;
+            for (const auto& gauge : stringGauges) {
+                if (!first) cout << ", ";
+                cout << gauge.first;
+                first = false;
+            }
+            cout << endl;
+            cout << "请重新输入。" << endl;
+        }
     }
 
     // 计算预留长度
@@ -238,6 +310,7 @@ void calculate() {
         double stringDiameterMM = stringDiameterInch * INCH_TO_MM;
 
         page1 << "| " << left << setw(4) << stringNames[i]
+            << ' '
             << " | " << fixed << setprecision(3) << setw(10) << stringDiameterMM
             << " | " << setprecision(1) << setw(8) << recommendedTurns[i]
             << " | " << setprecision(1) << setw(12) << reservedLengths[i] << " |" << endl;
