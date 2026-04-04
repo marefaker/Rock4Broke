@@ -180,7 +180,7 @@
 | 🚀 **顶** | [**JAM BUDDY II**](https://item.jd.com/10174949443805.html)<br>~¥550 | • 在 JAM BUDDY 基础上添加**三段均衡、混响与调制**<br>• 含**调音器**、**鼓机**、**Looper**<br>• 支持**内录**与**箱头模拟**<br>• 具备**输出接口**，为未来留足空间 |
 | 🌌 **顶中顶** | [**Marshall DSL40CR**](https://www.marshall.cn/product/MD00331?propId=296) | • 你都整马勺了还看啥穷玩指南 |
 
-- **顶**一级也可考虑 [**MOOER HORNET**](https://item.jd.com/10072031790674.html) 系列，多种箱头模拟适合多种风格，基础功能包括音量与增益调节、三段EQ、蓝牙伴奏、耳机监听，含调音表、调制、延迟、混响，可保存预设音色，缺点为略贵、略笨重、不支持扩展（如连接调音台、声卡、电脑等）且必须插电使用。其智能音箱配合自研 APP [iAMP](https://cn.mooeraudio.com/companyfile/APP%E5%BA%94%E7%94%A8%E4%B8%8B%E8%BD%BD-36.html) 可在功能广度上全面超越 [**JAM BUDDY II**](https://item.jd.com/10174949443805.html) 。
+- “**顶**”一级也可考虑 [**MOOER HORNET**](https://item.jd.com/10072031790674.html) 系列，多种箱头模拟适合多种风格，基础功能包括音量与增益调节、三段EQ、蓝牙伴奏、耳机监听，含调音表、调制、延迟、混响，可保存预设音色，缺点为略贵、略笨重、不支持扩展（如连接调音台、声卡、电脑等）且必须插电使用。其智能音箱配合自研 APP [**iAMP**](https://cn.mooeraudio.com/companyfile/APP%E5%BA%94%E7%94%A8%E4%B8%8B%E8%BD%BD-36.html) 可在功能广度上全面超越 [**JAM BUDDY II**](https://item.jd.com/10174949443805.html) 。
 
 ### 💰 周边设备投入明细
 
@@ -227,7 +227,7 @@
 
 - 电吉他虽然可以作为一个交流电源使用，但是其电动势极低（数十毫伏），而内阻极高（数千或数万欧姆）。耳机作为负载，阻抗一般不超过 100 Ω ，这意味着耳机获得的电压或功率几乎是 0。为此电吉他不能直接连耳机。
 
-- 电吉他效果链的主要目的是尽可能无损**传输电压信号**，而一个连接处的上游阻抗远小于下游阻抗时，下游负载才能分得尽可能多的电压，这个要求被称为**阻抗桥接**，服务于信号幅值的最大化传输。电吉他效果链中几乎所有设备的输入阻抗都在1MΩ量级而输出阻抗都在1kΩ量级，以让自身和下游设备尽可能多分到电压。
+- 电吉他效果链的主要目的是尽可能无损**传输电压信号**，而一个连接处的上游阻抗远小于下游阻抗时，下游负载才能分得尽可能多的电压，这个要求被称为**阻抗桥接**，服务于信号幅值的最大化传输。电吉他效果链中几乎所有设备的输入阻抗都在1MΩ量级,而输出阻抗都在1kΩ量级，以让自身和下游设备尽可能多分到电压。
 
 - 在耳机直连电吉他的情况下，由于吉他输出阻抗远大于耳机输入阻抗，既不满足阻抗匹配（功率最大）也不满足阻抗桥接（电压最大），导致负载上获得的电压和功率都极低。相比之下，在正常的效果链中，设备间的连接遵循阻抗桥接原则（输出阻抗低、输入阻抗高），虽然这种连接并不满足最大功率传输条件，但每个设备都有独立电源供电，信号会在内部被放大到所需的功率水平，因此无需像射频电路那样追求严格的功率匹配。”
 
@@ -309,7 +309,7 @@
 
 - **软件效果器**则是一类运行在电脑或手机上的数字信号处理程序，用软件算法模拟传统效果链中的所有环节————压缩、过载、均衡、调制、延迟、混响，甚至完整的箱头 + 箱体模拟。你可以在屏幕上像拼乐高一样拖动虚拟单块，调节旋钮，并且支持保存/切换上百种预设。知名软效包括：[Amplitube](https://cn.ikmultimedia.com/products/amplitube5/)、[Guitar Rig](https://www.native-instruments.com/zh/products/komplete/guitar/guitar-rig-7-player/)、[Neural DSP](https://neuraldsp.com/) 系列、[Bias FX（移动端）](https://www.positivegrid.com.cn/bias-fx-mobile)、[Bias FX2（电脑端）](https://www.positivegrid.com.cn/bias-fx2)、手机端的 [Tonebridge](https://www.mu.se/tonebridge)。软效的本质是用 CPU/DSP 芯片的算力，实时计算出效果器对信号的变换结果。性能开销方面，只要你的手机电脑不是砖头，延迟都不明显。
 
-- 具体来说，买一块入门级声卡（比如 [Focusrite Scarlett Solo](https://item.jd.com/10097990517420.html)、[Audient EVO 4](https://item.jd.com/10045860639176.html)，或者更便宜的 [Behringer UM2](https://item.jd.com/52558428792.html)、[Hotone JOGG](https://item.jd.com/68175243382.html)），然后在电脑或手机上安装软件效果器（如 [Amplitube](https://cn.ikmultimedia.com/products/amplitube5/)、[Guitar Rig](https://www.native-instruments.com/zh/products/komplete/guitar/guitar-rig-7-player/)、[Neural DSP](https://neuraldsp.com/) 免费试用版，甚至手机上的 [Tonebridge](https://www.mu.se/tonebridge)）。把吉他接到声卡，声卡接电脑或手机，耳机或音箱插在声卡的输出口，打开软件，你就能获得成千上万种音色，还能直接录音。
+- 具体来说，买一块入门级声卡（比如 [Focusrite Scarlett Solo](https://item.jd.com/10097990517420.html)、[Audient EVO 4](https://item.jd.com/10045860639176.html)，或者更便宜的 [Behringer UM2](https://item.jd.com/52558428792.html)、[Hotone JOGG](https://item.jd.com/68175243382.html)，最好有独立驱动），然后在电脑或手机上安装软件效果器（如 [Amplitube](https://cn.ikmultimedia.com/products/amplitube5/)、[Guitar Rig](https://www.native-instruments.com/zh/products/komplete/guitar/guitar-rig-7-player/)、[Neural DSP](https://neuraldsp.com/) 免费试用版，甚至手机上的 [Tonebridge](https://www.mu.se/tonebridge)）。把吉他接到声卡，声卡接电脑或手机，耳机或音箱插在声卡的输出口，打开软件，你就能获得成千上万种音色，还能直接录音。
 
 - 这个方案的好处是：
   - **音色上限高**：顶级软件效果器的音色已经能和真实箱头叫板。如果你愿意在 [JAM BUDDY II](https://item.jd.com/10174949443805.html) 的基础上加一块入门声卡和免费软效，你可以把综效和软效结合起来搞出更炸裂的音色。
