@@ -53,15 +53,15 @@
 
     > [IBANEZ GRX40](https://item.jd.com/10070130541163.html)
 
-    > （波奇老爸同款青春版）[Epiphone Les Paul Custom](https://item.jd.com/100109654786.html)
+    > [Epiphone Les Paul Custom](https://item.jd.com/100109654786.html)（波奇老爸同款青春版）
 
-    > （喜多同款青春版）[Epiphone Les Paul Junior Double Cut](https://item.jd.com/100304678126.html)
+    > [Epiphone Les Paul Junior Double Cut](https://item.jd.com/100304678126.html)（喜多同款青春版）
 
-    > （波奇老爸同款）[Gibson 1968 Les Paul Custom](https://item.jd.com/100126548830.html)
+    > [Gibson 1968 Les Paul Custom](https://item.jd.com/100126548830.html)（波奇老爸同款）
 
-    > （波奇同款）[YAMAHA PAC611V](https://item.jd.com/100319238862.html)
+    > [YAMAHA PAC611V](https://item.jd.com/100319238862.html)（波奇同款）
 
-    > （喜多同款）[Gibson Les Paul Junior Double Cut](https://item.taobao.com/item.htm?id=1001614815679)
+    > [Gibson Les Paul Junior Double Cut](https://item.taobao.com/item.htm?id=1001614815679)（喜多同款）
 
 
 
