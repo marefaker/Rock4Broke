@@ -368,7 +368,7 @@
 
 ### 🎬 Bilibili
 
-推荐几个 B 站 up 主：
+设备买完了就该开始练习了。推荐几个 B 站 up 主：
 
 *   [帅帅是把电吉他 - 免费线上教程](https://space.bilibili.com/385077115)
 *   [奔奔史密斯 - Rocksmith 人柱力](https://space.bilibili.com/293607656)
