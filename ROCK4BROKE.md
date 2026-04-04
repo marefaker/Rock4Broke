@@ -178,7 +178,7 @@
 | 🧊 **丐** | [**JA-02 II**](https://item.jd.com/10070012107793.html)<br>~¥150 | • 双通道<br>• 支持**蓝牙伴奏**与**音色增益**调节 |
 | ⚖️ **标配** | [**JAM BUDDY**](https://item.jd.com/10029369162535.html)<br>~¥350 | • **三通道**，可调节音量音色与增益<br>• 带**延迟效果**，音色更丰富<br>• 支持蓝牙、耳机（需转接头） |
 | 🚀 **顶** | [**JAM BUDDY II**](https://item.jd.com/10174949443805.html)<br>~¥550 | • 在 JAM BUDDY 基础上添加**三段均衡、混响与调制**<br>• 含**调音器**、**鼓机**、**Looper**<br>• 支持**内录**与**箱头模拟**<br>• 具备**输出接口**，为未来留足空间 |
-| 🌌 **顶中顶** | [**Marshall DSL40CR**](https://www.marshall.cn/product/MD00331?propId=296) | 你都整马勺了还看啥穷玩指南 |
+| 🌌 **顶中顶** | [**Marshall DSL40CR**](https://www.marshall.cn/product/MD00331?propId=296) | • 你都整马勺了还看啥穷玩指南 |
 
 - **顶**一级也可考虑 [**MOOER HORNET**](https://item.jd.com/10072031790674.html) 系列，多种箱头模拟适合多种风格，基础功能包括音量与增益调节、三段EQ、蓝牙伴奏、耳机监听，含调音表、调制、延迟、混响，可保存预设音色，缺点为略贵、略笨重、不支持扩展（如连接调音台、声卡、电脑等）且必须插电使用。其智能音箱配合自研 APP [iAMP](https://cn.mooeraudio.com/companyfile/APP%E5%BA%94%E7%94%A8%E4%B8%8B%E8%BD%BD-36.html) 可在功能广度上全面超越 [**JAM BUDDY II**](https://item.jd.com/10174949443805.html) 。
 
