@@ -315,7 +315,7 @@
   - **音色上限高**：顶级软件效果器的音色已经能和真实箱头叫板。如果你愿意在 [JAM BUDDY II](https://item.jd.com/10174949443805.html) 的基础上加一块入门声卡和免费软效，你可以把综效和软效结合起来搞出更炸裂的音色。
   - **扩展性强**：你随时可以加鼓机、录音、混音，甚至玩一玩 MIDI 键盘。
   - **不扰民**：全在耳机里，半夜撸琴也不怕邻居敲门。
-  - **可以玩Rocksmith**：只需要配合 Github 上免费的程序[RS_ASIO](https://github.com/mdias/rs_asio)就可以避免购买昂贵而用处少的育碧原厂 Real Tone Cable 音频线。不瞒大家说，我刚开始学民谣吉他的时候就想过要玩Rocksmith，结果发现需要用电吉他玩。我试过给木吉他装拾音器，买了电吉他之后还买过移动声卡、淘宝上不知哪来的“兼容 Rocksmith 音频线”，总之就是想过要玩 RS 还要接软效。踩了这么多坑之后我梳理明白了，新手最全面的配置无非是一个 JAM BUDDY II 再加上一块 HOTONE JOGG 声卡，以及 Github 上最具互联网精神的项目。
+  - **可以玩 Rocksmith 2014 Edition - Remastered**：只需要配合 Github 上免费的程序 [RS_ASIO](https://github.com/mdias/rs_asio) 就可以避免购买昂贵而用处少的育碧原厂 Real Tone Cable 音频线。不瞒大家说，我刚开始学民谣吉他的时候就想过要玩Rocksmith，结果发现需要用电吉他玩。我试过给木吉他装拾音器，买了电吉他之后还买过移动声卡、淘宝上不知哪来的“兼容 Rocksmith 音频线”，总之就是想过要玩 Rocksmith 还要接软效。踩了这么多坑之后我梳理明白了，新手最全面的配置无非是一个 JAM BUDDY II 再加上一块 HOTONE JOGG 声卡，以及 Github 上最具互联网精神的项目。我为什么要指名道姓说是 Rocksmith 2014 Edition - Remastered 呢？因为别的版本我没玩过。虽然重制版相比原版不能走正规途径添加 DLC 歌曲，但是关注一下[奔奔史密斯](https://space.bilibili.com/293607656)老师就知道该怎么添加了。
 
 - 坏处呢？
   - **需要电脑**：练琴要开电脑、开声卡、开软件，懒癌患者容易劝退。
