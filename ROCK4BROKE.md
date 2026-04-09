@@ -22,7 +22,7 @@
 
 如果你不差钱也懒得认真读，那你可以**请一位老师**，当面手把手指导你；
 
-如果你差钱又想要省流，那就 [**IBANEZ GRX40**](https://item.jd.com/10070130541163.html) + [**JOYO JA-02 II**](https://item.jd.com/10070012107793.html)，一把吉他一个音箱已经可以出声了；
+如果你差钱又想要省流，那就 [**IBANEZ GRX40**](https://item.jd.com/10070130541163.html) + [**JOYO JA-02 II**](https://item.jd.com/10070012107793.html) ，一把吉他一个音箱已经可以出声了；
 
 如果你是乐意细读的富哥，那么我的指南无法满足你的设备需求，但是无妨坐下来了解一下设备的工作原理。
 
@@ -374,7 +374,7 @@
 
 ## 彩蛋：声卡怎么玩？
 
-- **声卡**简单来说是在电吉他模拟信号和电脑听得懂的数字信号间进行AD/DA转换的设备。现在的入门级声卡还集成了话放（麦克风放大）、耳放（耳机放大）和48V幻象电源。对于吉他手来说，最关键的是它提供了高阻抗输入（Hi‑Z，通常 1MΩ 左右），可以直接怼进电吉他而不损失高频————这点是普通电脑板载声卡做不到的。
+- **声卡**简单来说是在电吉他模拟信号和电脑听得懂的数字信号间进行 AD/DA 转换的设备。现在的入门级声卡还集成了话放（麦克风放大）、耳放（耳机放大）和48V幻象电源。对于吉他手来说，最关键的是它提供了高阻抗输入（Hi‑Z，通常 1MΩ 左右），可以直接怼进电吉他而不损失高频————这点是普通电脑板载声卡做不到的。
 
 - **软件效果器**则是一类运行在电脑或手机上的数字信号处理程序，用软件算法模拟传统效果链中的所有环节————压缩、过载、均衡、调制、延迟、混响，甚至完整的箱头 + 箱体模拟。你可以在屏幕上像拼乐高一样拖动虚拟单块，调节旋钮，并且支持保存/切换上百种预设。知名软效包括：[Amplitube](https://cn.ikmultimedia.com/products/amplitube5/)、[Guitar Rig](https://www.native-instruments.com/zh/products/komplete/guitar/guitar-rig-7-player/)、[Neural DSP](https://neuraldsp.com/) 系列、[Bias FX（移动端）](https://www.positivegrid.com.cn/bias-fx-mobile)、[Bias FX2（电脑端）](https://www.positivegrid.com.cn/bias-fx2)、手机端的 [Tonebridge](https://www.mu.se/tonebridge)。软效的本质是用 CPU/DSP 芯片的算力，实时计算出效果器对信号的变换结果。性能开销方面，只要你的手机电脑不是砖头，延迟都不明显。
 
