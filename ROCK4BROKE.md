@@ -35,8 +35,7 @@
 - [🔊 音箱选购建议](#-音箱选购建议)
 - [🤔 电吉他 ABC](#-电吉他-abc)
 - [🌐 网络资源](#-网络资源)
-
-> 设备清单中涉及的具体音箱型号将在[🔊 音箱选购建议](#-音箱选购建议)部分进行介绍
+- [🎛️ 声卡的用途](#彩蛋声卡怎么玩)
 
 ---
 
@@ -299,42 +298,6 @@
 
 - 市面上大部分数字综合效果器都可以模拟`调音表 -> 噪音门 -> 压缩器 -> 哇音踏板 -> 均衡 -> 增益 -> 调制 -> 延迟 -> 混响`这一部分（具体构成和顺序可能不同）。再进一步，如果把数字综合效果器和`放大器`、`扬声器`集成在同一外壳内，就得到了通常所说的**综合效果器音箱**（更准确的术语是‘数字建模一体式音箱’）。它是一套完整的“一体化解决方案”，无需外接任何设备即可获得多种可编程音色。
 
-### 问：为什么推荐综合效果器音箱而不是单块加音箱或者其他方案？
-
-- 那些设备又贵又占地方，并且不是每一块你都需要。业余玩家能用到的所有东西 [**JAM BUDDY II**](https://item.jd.com/10174949443805.html) 都有了。如果有朝一日你的技术与财力能够驾驭专业方案，那再好不过了。
-
-- 但是既然你都读到这里了，我就告诉你另一个方案：**声卡 + 软件效果器**。
-
-- **声卡**简单来说是在电吉他模拟信号和电脑听得懂的数字信号间进行AD/DA转换的设备。现在的入门级声卡还集成了话放（麦克风放大）、耳放（耳机放大）和48V幻象电源。对于吉他手来说，最关键的是它提供了高阻抗输入（Hi‑Z，通常 1MΩ 左右），可以直接怼进电吉他而不损失高频————这点是普通电脑板载声卡做不到的。
-
-- **软件效果器**则是一类运行在电脑或手机上的数字信号处理程序，用软件算法模拟传统效果链中的所有环节————压缩、过载、均衡、调制、延迟、混响，甚至完整的箱头 + 箱体模拟。你可以在屏幕上像拼乐高一样拖动虚拟单块，调节旋钮，并且支持保存/切换上百种预设。知名软效包括：[Amplitube](https://cn.ikmultimedia.com/products/amplitube5/)、[Guitar Rig](https://www.native-instruments.com/zh/products/komplete/guitar/guitar-rig-7-player/)、[Neural DSP](https://neuraldsp.com/) 系列、[Bias FX（移动端）](https://www.positivegrid.com.cn/bias-fx-mobile)、[Bias FX2（电脑端）](https://www.positivegrid.com.cn/bias-fx2)、手机端的 [Tonebridge](https://www.mu.se/tonebridge)。软效的本质是用 CPU/DSP 芯片的算力，实时计算出效果器对信号的变换结果。性能开销方面，只要你的手机电脑不是砖头，延迟都不明显。
-
-- 具体来说，买一块入门级声卡（比如 [Focusrite Scarlett Solo](https://item.jd.com/10097990517420.html)、[Audient EVO 4](https://item.jd.com/10045860639176.html)，或者更便宜的 [Behringer UM2](https://item.jd.com/52558428792.html)、[Hotone JOGG](https://item.jd.com/68175243382.html)，最好有独立驱动），然后在电脑或手机上安装对应的声卡驱动和软件效果器（如 [Amplitube](https://cn.ikmultimedia.com/products/amplitube5/)、[Guitar Rig](https://www.native-instruments.com/zh/products/komplete/guitar/guitar-rig-7-player/)、[Neural DSP](https://neuraldsp.com/) 免费试用版，甚至手机上的 [Tonebridge](https://www.mu.se/tonebridge)）。把吉他接到声卡，声卡接电脑或手机，耳机或音箱插在声卡的输出口，打开软件，选好驱动和设备，调整一下 ASIO 参数，你就能获得成千上万种音色，还能直接录音。
-
-- 这个方案的好处是：
-  - **音色上限高**：顶级软件效果器的音色已经能和真实箱头叫板。如果你愿意在 [JAM BUDDY II](https://item.jd.com/10174949443805.html) 的基础上加一块入门声卡和免费软效，你可以把综效和软效结合起来搞出更炸裂的音色。
-  - **扩展性强**：你随时可以加鼓机、录音、混音，甚至玩一玩 MIDI 键盘。
-  - **不扰民**：全在耳机里，半夜撸琴也不怕邻居敲门。
-  - **可以玩 Rocksmith 2014 Edition - Remastered**：只需要配合 Github 上免费的程序 [RS_ASIO](https://github.com/mdias/rs_asio) 就可以避免购买昂贵而用处少的育碧原厂 Real Tone Cable 音频线。不瞒大家说，我刚开始学民谣吉他的时候就想过要玩Rocksmith，结果发现需要用电吉他玩。我试过给木吉他装拾音器，买了电吉他之后还买过移动声卡、淘宝上不知哪来的“兼容 Rocksmith 音频线”，总之就是想过要玩 Rocksmith 还要接软效。踩了这么多坑之后我梳理明白了，新手最全面的配置无非是一个 JAM BUDDY II 再加上一块 HOTONE JOGG 声卡，以及 Github 上最具互联网精神的项目。我为什么要指名道姓说是 Rocksmith 2014 Edition - Remastered 呢？因为别的版本我没玩过。虽然重制版相比原版不能走正规途径添加 DLC 歌曲，但是关注一下[奔奔史密斯](https://space.bilibili.com/293607656)老师就知道该怎么添加了。
-
-- 坏处呢？
-  - **需要电脑**：练琴要开电脑、开声卡、开软件，懒癌患者容易劝退。
-  - **有一定的延迟风险**：虽然现代电脑配合 ASIO 驱动能做到几乎无感，但没设置好时，那几十毫秒的延迟会让你感觉在弹空气。
-  - **没有“怼音箱”的爽感**：软件效果器进监听耳机或者监听音箱，声音太“干净”，缺少物理箱体那种轰胸口的震动。有些老炮就是受不了这个。
-
-- **那为什么我还是首推综合效果器音箱？**  
-  因为**省心**。  
-  你打开 JOYO JAM BUDDY II，拧开开关，插上吉他，调个通道，完事。不用研究 ASIO 驱动，不用纠结采样率，不用怕电脑死机。它就是一个**为吉他手设计的专用设备**，而不是一个通用计算平台。而且 JOYO 这类小音箱还能用电池，拿上它和吉他，你可以坐在阳台、蹲在楼道、躺在床上一通乱弹，声卡可做不到这点。
-
-- **最后的暴论**：  
-  预算极其有限 -> 丐中丐 JA-01，能响能练。  
-  愿意多掏两百 -> JAM BUDDY 一代，带延迟，音色够用。  
-  想一步到位不折腾 -> JAM BUDDY II，鼓机、Looper、调音表、蓝牙伴奏、内录全给你，练琴神器。  
-  如果你已经有一台不错的电脑且不嫌麻烦 -> JAM BUDDY II + 声卡 + 软件效果器，高性价比方案中上限最高。  
-  如果你家里有矿 -> 出门右转，Gibson Custom Shop + Marshall 分体 + Mac Studio + UAD Apollo 声卡 + 全套正版 Neural DSP / Fractal 软效，爱怎么烧怎么烧，别在这里看穷玩指南了。
-
-> 记住：设备只是工具，**弹起来**才是真的。用 JA-01 练出来的 riff，跟用十万元设备练出来的 riff，在听众耳朵里没有区别——只要你不告诉他们。
-
 ### 问：我的琴桥怎么是斜的？
 
 - 不用担心，这不是设计或制造瑕疵，而是**补偿式琴桥**设计。
@@ -396,3 +359,38 @@
 *   [卓乐 JOYO 乐器旗舰店](https://mall.jd.com/index-10703887.html)
 *   [艺钛客乐器专营店](https://mall.jd.com/index-633987.html)
 *   [爱丽丝（Alice）官方旗舰店](https://mall.jd.com/index-18910428.html)
+
+---
+
+## 彩蛋：声卡怎么玩？
+
+- **声卡**简单来说是在电吉他模拟信号和电脑听得懂的数字信号间进行AD/DA转换的设备。现在的入门级声卡还集成了话放（麦克风放大）、耳放（耳机放大）和48V幻象电源。对于吉他手来说，最关键的是它提供了高阻抗输入（Hi‑Z，通常 1MΩ 左右），可以直接怼进电吉他而不损失高频————这点是普通电脑板载声卡做不到的。
+
+- **软件效果器**则是一类运行在电脑或手机上的数字信号处理程序，用软件算法模拟传统效果链中的所有环节————压缩、过载、均衡、调制、延迟、混响，甚至完整的箱头 + 箱体模拟。你可以在屏幕上像拼乐高一样拖动虚拟单块，调节旋钮，并且支持保存/切换上百种预设。知名软效包括：[Amplitube](https://cn.ikmultimedia.com/products/amplitube5/)、[Guitar Rig](https://www.native-instruments.com/zh/products/komplete/guitar/guitar-rig-7-player/)、[Neural DSP](https://neuraldsp.com/) 系列、[Bias FX（移动端）](https://www.positivegrid.com.cn/bias-fx-mobile)、[Bias FX2（电脑端）](https://www.positivegrid.com.cn/bias-fx2)、手机端的 [Tonebridge](https://www.mu.se/tonebridge)。软效的本质是用 CPU/DSP 芯片的算力，实时计算出效果器对信号的变换结果。性能开销方面，只要你的手机电脑不是砖头，延迟都不明显。
+
+- 具体来说，买一块入门级声卡（比如 [Focusrite Scarlett Solo](https://item.jd.com/10097990517420.html)、[Audient EVO 4](https://item.jd.com/10045860639176.html)，或者更便宜的 [Behringer UM2](https://item.jd.com/52558428792.html)、[Hotone JOGG](https://item.jd.com/68175243382.html)，最好有独立驱动），然后在电脑或手机上安装对应的声卡驱动和软件效果器（如 [Amplitube](https://cn.ikmultimedia.com/products/amplitube5/)、[Guitar Rig](https://www.native-instruments.com/zh/products/komplete/guitar/guitar-rig-7-player/)、[Neural DSP](https://neuraldsp.com/) 免费试用版，甚至手机上的 [Tonebridge](https://www.mu.se/tonebridge)）。把吉他接到声卡，声卡接电脑或手机，耳机或音箱插在声卡的输出口，打开软件，选好驱动和设备，调整一下 ASIO 参数，你就能获得成千上万种音色，还能直接录音。
+
+- 这个方案的好处是：
+  - **音色上限高**：顶级软件效果器的音色已经能和真实箱头叫板。如果你愿意在 [JAM BUDDY II](https://item.jd.com/10174949443805.html) 的基础上加一块入门声卡和免费软效，你可以把综效和软效结合起来搞出更炸裂的音色。
+  - **扩展性强**：你随时可以加鼓机、录音、混音，甚至玩一玩 MIDI 键盘。
+  - **不扰民**：全在耳机里，半夜撸琴也不怕邻居敲门。
+  - **可以玩 Rocksmith 2014 Edition - Remastered**：只需要配合 Github 上免费的程序 [RS_ASIO](https://github.com/mdias/rs_asio) 就可以避免购买昂贵而用处少的育碧原厂 Real Tone Cable 音频线。不瞒大家说，我刚开始学民谣吉他的时候就想过要玩 Rocksmith 这款游戏，结果发现需要用电吉他玩。我试过给木吉他装拾音器，买了电吉他之后还买过移动声卡、淘宝上不知哪来的“兼容 Rocksmith 音频线”，总之就是想过要玩 Rocksmith 还要接软效。踩了这么多坑之后我梳理明白了，新手最全面的配置无非是一个 JAM BUDDY II 再加上一块 HOTONE JOGG 声卡，以及 Github 上最具互联网精神的项目。我为什么要指名道姓说是 Rocksmith 2014 Edition - Remastered 呢？因为别的版本我没玩过。虽然重制版相比原版不能走正规途径添加 DLC 歌曲，但是关注一下[奔奔史密斯](https://space.bilibili.com/293607656)老师就知道该怎么添加了。
+
+- 坏处呢？
+  - **需要电脑**：练琴要开电脑、开声卡、开软件，懒癌患者容易劝退。
+  - **有一定的延迟风险**：虽然现代电脑配合 ASIO 驱动能做到几乎无感，但没设置好时，那几十毫秒的延迟会让你感觉在弹空气。
+  - **没有“怼音箱”的爽感**：软件效果器进监听耳机或者监听音箱，声音太“干净”，缺少物理箱体那种轰胸口的震动。有些老炮就是受不了这个。
+
+- **那为什么我还是首推综合效果器音箱？**  
+  因为**省心**。  
+  你打开 JOYO JAM BUDDY II，拧开开关，插上吉他，调个通道，完事。不用研究 ASIO 驱动，不用纠结采样率，不用怕电脑死机。它就是一个**为吉他手设计的专用设备**，而不是一个通用计算平台。而且 JOYO 这类小音箱还能用电池，拿上它和吉他，你可以坐在阳台、蹲在楼道、躺在床上一通乱弹，声卡可做不到这点。
+
+- **最后的暴论**：  
+  预算极其有限 -> 丐中丐 JA-01，能响能练。  
+  愿意多掏两百 -> JAM BUDDY 一代，带延迟，音色够用。  
+  想一步到位不折腾 -> JAM BUDDY II，鼓机、Looper、调音表、蓝牙伴奏、内录全给你，练琴神器。  
+  如果你已经有一台不错的电脑且不嫌麻烦 -> JAM BUDDY II + 声卡 + 软件效果器，高性价比方案中上限最高。  
+  如果你家里有矿 -> 出门右转，Gibson Custom Shop + Marshall 分体 + Mac Studio + UAD Apollo 声卡 + 全套正版 Neural DSP / Fractal 软效，爱怎么烧怎么烧，别在这里看穷玩指南了。
+
+> 记住：设备只是工具，**弹起来**才是真的。用 JA-01 练出来的 riff，跟用十万元设备练出来的 riff，在听众耳朵里没有区别——只要你不告诉他们。
+
